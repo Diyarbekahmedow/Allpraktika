@@ -1,0 +1,2 @@
+# Allpraktika
+All amaly islerim
