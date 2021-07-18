@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap mysallar</title>
+<link rel="stylesheet" href="HTML & CSS/bootstrap5.css">
+<link rel="stylesheet" href="w.css">
+</head>
+<body>
+<h1 class="text-center mt-3 " style="font-size:35px">Bootstrap Mysallar</h1>
+<div class="container my-2 mt-5">
+<div class="card shadow">
+<div class="card-header text-center">
+<!-- Pagination and list-group start-->
+<h1 class="text-dark bg-light"><u>Pagination:</u></h1>
+</div>
+<div class="card-body">
+<!--Pagination start-->
+<ul class="pagination">
+
+<li class="page-item "><a href="#" class="page-link">Orqaga qaytish</a></li>
+<li class="page-item"><a href="#" class="page-link">1</a></li>
+<li class="page-item "><a href="#" class="page-link">2</a></li>
+<li class="page-item "><a href="#" class="page-link">Next</a></li>
+</ul>
+<!-- Pagination active -->
+<ul class="pagination">
+
+<li class="page-item "><a href="#" class="page-link">Orqaga qaytish</a></li>
+<li class="page-item active"><a href="#" class="page-link">1</a></li>
+<li class="page-item "><a href="#" class="page-link">2</a></li>
+<li class="page-item "><a href="#" class="page-link">Next</a></li>
+</ul>
+<!--Pagination disabled-->
+<ul class="pagination">
+
+<li class="page-item disabled"><a href="#" class="page-link">Orqaga qaytish</a></li>
+<li class="page-item"><a href="#" class="page-link">1</a></li>
+<li class="page-item "><a href="#" class="page-link">2</a></li>
+<li class="page-item "><a href="#" class="page-link">Next</a></li>
+</ul>
+<!--Large pagination -->
+<ul class="pagination pagination-lg">
+
+<li class="page-item "><a href="#" class="page-link">Orqaga qaytish</a></li>
+<li class="page-item"><a href="#" class="page-link">1</a></li>
+<li class="page-item "><a href="#" class="page-link">2</a></li>
+<li class="page-item "><a href="#" class="page-link">Next</a></li>
+</ul>
+<!-- Small pagination-->
+<ul class="pagination pagination-sm">
+
+<li class="page-item "><a href="#" class="page-link">Orqaga qaytish</a></li>
+<li class="page-item"><a href="#" class="page-link">1</a></li>
+<li class="page-item "><a href="#" class="page-link">2</a></li>
+<li class="page-item "><a href="#" class="page-link">Next</a></li>
+</ul>
+<!-- Pagination left center right -->
+<ul class="pagination justify-content-end ">
+
+<li class="page-item "><a href="#" class="page-link">Orqaga qaytish</a></li>
+<li class="page-item "><a href="#" class="page-link">1</a></li>
+<li class="page-item "><a href="#" class="page-link">2</a></li>
+<li class="page-item "><a href="#" class="page-link">Next</a></li>
+</ul>
+<!--Pagination end -->
+</div>
+</div>
+<div class="card mt-5 shadow">
+<div class="card-header">
+<!--List group start-->
+<h2 class="bg-light text-center"><u>List Group:</u></h2>
+</div>
+<div class="card-body">
+<ul class="list-group">
+<li class="list-group-item">Dashoguz</li>
+<li class="list-group-item">Ashgabat</li>
+<li class="list-group-item">Mary</li>
+</ul>
+<!--List group active start-->
+<ul class="list-group mt-3">
+<li class="list-group-item">Dashoguz</li>
+<li class="list-group-item">Ashgabat</li>
+<li class="list-group-item active">Mary</li>
+</ul>
+<!--List group disabled-->
+<ul class="list-group mt-3">
+<li class="list-group-item ">Dashoguz</li>
+<li class="list-group-item disabled ">Ashgabat</li>
+<li class="list-group-item ">Mary</li>
+</ul>
+<!--List group action-->
+<ul class="list-group mt-3">
+<li class="list-group-item list-group-item-action">Dashoguz</li>
+<li class="list-group-item list-group-item-action ">Ashgabat</li>
+<li class="list-group-item list-group-item-action">Mary</li>
+</ul>
+<!--List group flush-->
+<ul class="list-group mt-3 list-group-flush">
+<li class="list-group-item list-group-item-action">Dashoguz</li>
+<li class="list-group-item list-group-item-action ">Ashgabat</li>
+<li class="list-group-item list-group-item-action">Mary</li>
+</ul>
+<!--List group horizontal-->
+<ul class="list-group mt-3 list-group-horizontal">
+<li class="list-group-item list-group-item-action">Dashoguz</li>
+<li class="list-group-item list-group-item-action ">Ashgabat</li>
+<li class="list-group-item list-group-item-action">Mary</li>
+</ul>
+<!--List group horizontal small,medium,large,xl,xxl.-->
+<ul class="list-group mt-3 list-group-horizontal-sm">
+<li class="list-group-item list-group-item-action">Dashoguz</li>
+<li class="list-group-item list-group-item-action ">Ashgabat</li>
+<li class="list-group-item list-group-item-action">Mary</li>
+</ul>
+<!--List group color-->
+<ul class="list-group mt-3 ">
+<li class="list-group-item list-group-item-success list-group-item-action active">Dashoguz</li>
+<li class="list-group-item list-group-item-action ">Ashgabat</li>
+<li class="list-group-item list-group-item-action ">Mary</li>
+</ul>
+<!--List group badge-->
+<h2 class="text-center"><u>Badge:</u></h2>
+<ul class="list-group mt-3 ">
+<li class="list-group-item d-flex justify-content-between align-items-center list-group-item-action">Dashoguz <span class="badge bg-primary rounded-pill">17</span></li>
+<li class="list-group-item list-group-item-action ">Ashgabat</li>
+<li class="list-group-item list-group-item-action ">Mary</li>
+</ul>
+<!--List group breadcrumb-->
+<h2 class="text-center"><u>Breadcrumb:</u></h2>
+<ul class="breadcrumb mt-3">
+<li class="breadcrumb-item "><a href="#" >Home</a></li>
+<li class="breadcrumb-item active"><a href="#" >Ashgabat</a></li>
+<li class="breadcrumb-item active">Mary</li>
+</ul>
+<!--List group end -->
+</div>
+</div>
+<div class="card shadow mt-5">
+      <!--Form and input start-->
+      <div class="card-header">
+ <h2 class="text-center"><u>Form and input: </u></h2>
+ </div>
+ <div class="card-body ">
+ <form >
+   <div class="form-group"> 
+     <label id="int">Username:</label>
+     <input id="int" type="text" class="form-control">
+     </div>
+     <div class="form-group"> 
+     <label id="int1">Password:</label>
+     <input id="int1" type="password" class="form-control">
+     </div>
+     <div class="form-group form-check">
+     <label class="form-check-label">
+       <input type="checkbox"class="form-check-input ">Remember password</label>
+     </div>
+     <button type="submit"class="btn btn-primary w-100">Login</button>
+  <!--Form and input group validated-->
+  <h2 class="text-center"><u>Form Validate:</u></h2>
+  </form>
+      <form class="was-validated">
+      <div class="form-group"> 
+      <label id="int">Username:</label>
+      <input required id="int" type="text" class="form-control "><!--form control-sm(lg)-->
+      <div class="valid-feedback">Valid</div>
+      <div class="invalid-feedback">Maydonni toldirish shart</div>
+      </div>
+      <div class="form-group"> 
+      <label id="int1">Password:</label>
+      <input required id="int1" type="password" class="form-control">
+      <div class="valid-feedback">Valid</div>
+      <div class="invalid-feedback">Maydonni toldirish shart</div>
+      </div>
+      <div class="form-group form-check">
+      <label class="form-check-label">
+      <input type="checkbox"class=" form-check-input ">Remember password</label>
+      </div>
+      <button type="submit"class="btn btn-primary w-100">Login</button>
+      </form>
+     <!--Form select-->
+    
+      <!--Form and input end-->
+      </div>
+      </div>
+</div>
+
+
+<hr class="m-0">
+<!--Footer start-->
+<div class="footer text-center bg-dark text-info p-3">
+<p>Bootstrap © 2021 | Ähli hukuklar goralan</p>
+</div>
+<!--Footer end-->
+<script src="bootstrapjs.js"></script>
+<script src="bootstrapjs2.js"></script>
+</body>
+</html>
